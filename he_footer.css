@@ -43,7 +43,8 @@
   margin-bottom: 10px;
 }
 
-.footer-columna ul li a {
+.footer-columna ul li a,
+.footer-columna ul li a:visited {
   text-decoration: none;
   color: #d1d5db;
   font-size: 0.9rem;
@@ -51,7 +52,7 @@
 }
 
 .footer-columna ul li a:hover {
-  color: #a855f7;
+  color: #ec4899;
 }
 
 .footer-copy {
