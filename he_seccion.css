@@ -1,0 +1,415 @@
+main {
+  background-color: #0b0f19;
+  color: #ffffff;
+}
+
+.sec-prod-serv {
+  background-color: #0b0f19;
+  padding: 35px 55px 35px;
+}
+
+.div-gral-prod-serv {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.div-prod-serv-text {
+  width: 45%;
+}
+
+.div-prod-serv-text h1 {
+  font-size: 2.7rem;
+  line-height: 1.15;
+  margin: 0 0 14px;
+  color: #ffffff;
+}
+
+.div-prod-serv-text p {
+  font-size: 1.15rem;
+  line-height: 1.35;
+  color: #d1d5db;
+  margin: 0 0 12px;
+  max-width: 430px;
+}
+
+.buscador-eventos {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 12px;
+}
+
+.buscador-eventos input {
+  width: 100%;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 7px;
+  background-color: #171b27;
+  color: #ffffff;
+  outline: none;
+}
+
+.buscador-eventos input::placeholder {
+  color: #777b88;
+  font-size: 0.8rem;
+}
+
+.btn-principal {
+  display: inline-block;
+  background-color: #ec4899;
+  color: #0b0f19;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  transition: 0.3s ease;
+}
+
+.btn-principal:hover {
+  background-color: #a855f7;
+  color: #ffffff;
+}
+
+.categorias h3 {
+  font-size: 1rem;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.categoria-lista {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.categoria-lista span {
+  background-color: #171b27;
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 7px;
+  font-size: 0.78rem;
+}
+
+.div-prod-serv-img {
+  width: 50%;
+}
+
+.div-prod-serv-img img {
+  width: 100%;
+  height: 285px;
+  object-fit: cover;
+  border-radius: 5px;
+  display: block;
+}
+
+.seccion-eventos,
+.seccion-artistas,
+.seccion-agenda,
+.sec-pro-dig {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 20px 55px;
+  background-color: #0b0f19;
+}
+
+.titulo-seccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d1d5db;
+  padding-top: 13px;
+  margin-bottom: 15px;
+}
+
+.titulo-seccion h2,
+.seccion-artistas h2,
+.seccion-agenda h2,
+.div-prod-dig-text h2 {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+.titulo-seccion a {
+  color: #6b7280;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.titulo-seccion a:hover {
+  color: #ec4899;
+}
+
+.contenedor-eventos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 38px;
+}
+
+.card-evento {
+  background-color: #171b27;
+  border-radius: 7px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.card-evento:hover {
+  transform: translateY(-5px);
+}
+
+.card-evento img {
+  width: 100%;
+  height: 115px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-evento div {
+  padding: 8px 10px 12px;
+}
+
+.card-evento h3 {
+  font-size: 0.85rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+.card-evento p {
+  font-size: 0.75rem;
+  margin: 4px 0;
+  color: #d1d5db;
+}
+
+.card-evento span {
+  font-size: 0.75rem;
+  color: #d1d5db;
+}
+
+.seccion-artistas {
+  padding-top: 10px;
+}
+
+.seccion-artistas h2 {
+  border-top: 1px solid #d1d5db;
+  padding-top: 13px;
+  margin-bottom: 15px;
+}
+
+.contenedor-artistas {
+  display: flex;
+  gap: 65px;
+  flex-wrap: wrap;
+}
+
+.card-artista {
+  text-align: center;
+}
+
+.card-artista img {
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.card-artista h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.seccion-agenda {
+  padding-top: 35px;
+}
+
+.agenda-texto {
+  border-top: 1px solid #d1d5db;
+  padding-top: 18px;
+  margin-bottom: 22px;
+}
+
+.agenda-texto p {
+  color: #d1d5db;
+  max-width: 650px;
+  line-height: 1.5;
+}
+
+.agenda-contenido {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+}
+
+.calendario,
+.proximos-eventos {
+  background-color: #171b27;
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.calendario-header h3,
+.proximos-eventos h3 {
+  margin: 0 0 18px;
+  color: #ffffff;
+}
+
+.calendario-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.calendario-grid span {
+  color: #a855f7;
+  font-weight: 700;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.calendario-grid div {
+  min-height: 65px;
+  background-color: #0f1320;
+  border-radius: 8px;
+  padding: 8px;
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.dia-evento {
+  border: 1px solid #ec4899;
+}
+
+.dia-evento small {
+  display: block;
+  margin-top: 8px;
+  color: #ec4899;
+  font-size: 0.65rem;
+}
+
+.evento-agenda {
+  background-color: #0f1320;
+  padding: 15px;
+  border-radius: 9px;
+  margin-bottom: 14px;
+}
+
+.evento-agenda h4 {
+  margin: 0 0 6px;
+}
+
+.evento-agenda p {
+  margin: 0 0 10px;
+  color: #d1d5db;
+}
+
+.evento-agenda a {
+  color: #ec4899;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sec-pro-dig {
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+.div-gral-prod-dig {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: center;
+  gap: 45px;
+  border-top: 1px solid #d1d5db;
+  padding-top: 25px;
+}
+
+.div-prod-dig-text p {
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.div-prod-dig-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #171b27;
+}
+
+.div-prod-dig-video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 900px) {
+  .div-gral-prod-serv,
+  .div-gral-prod-dig {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .div-prod-serv-text,
+  .div-prod-serv-img {
+    width: 100%;
+  }
+
+  .contenedor-eventos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .agenda-contenido {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec-prod-serv,
+  .seccion-eventos,
+  .seccion-artistas,
+  .seccion-agenda,
+  .sec-pro-dig {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .div-prod-serv-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .contenedor-eventos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contenedor-artistas {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .div-prod-serv-img img {
+    height: 230px;
+  }
+
+  .calendario-grid {
+    gap: 5px;
+  }
+
+  .calendario-grid div {
+    min-height: 52px;
+    padding: 6px;
+  }
+}

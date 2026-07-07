@@ -1,0 +1,134 @@
+.seccion-formulario {
+  background-color: #0b0f19;
+  padding: 45px 55px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-geral-formulario {
+  width: 100%;
+  max-width: 620px;
+  background-color: #171b27;
+  padding: 35px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.div-geral-formulario h2 {
+  color: #ffffff;
+  margin: 0 0 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.div-geral-formulario p {
+  color: #d1d5db;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 0 25px;
+}
+
+.formulario {
+  width: 100%;
+}
+
+.campo {
+  margin-bottom: 18px;
+}
+
+.formulario label {
+  display: block;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background-color: #0f1320;
+  color: #ffffff;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.formulario input::placeholder {
+  color: #777b88;
+}
+
+.formulario input:focus,
+.formulario select:focus {
+  border-color: #ec4899;
+}
+
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 14px;
+  margin: 0;
+  background-color: #0f1320;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lista-checkbox li,
+.lista-radio li {
+  margin-bottom: 10px;
+}
+
+.lista-checkbox li:last-child,
+.lista-radio li:last-child {
+  margin-bottom: 0;
+}
+
+.lista-checkbox label,
+.lista-radio label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d1d5db;
+  font-weight: 500;
+  margin: 0;
+}
+
+.lista-checkbox input,
+.lista-radio input {
+  accent-color: #ec4899;
+}
+
+.formulario button {
+  width: 100%;
+  background-color: #ec4899;
+  color: #0b0f19;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #a855f7;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .seccion-formulario {
+    padding: 35px 25px 50px;
+  }
+
+  .div-geral-formulario {
+    padding: 25px;
+  }
+
+  .div-geral-formulario h2 {
+    font-size: 1.5rem;
+  }
+}

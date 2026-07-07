@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VibraPass</title>
+    <link rel="stylesheet" href="he_cabecera.css" />
+    <link rel="stylesheet" href="he_seccion.css" />
+    <link rel="stylesheet" href="he_formulario.css" />
+    <link rel="stylesheet" href="he_footer.css" />
+  </head>
+
+  <body>
+    <header class="top-header">
+      <a href="#inicio" class="logo">
+        <img src="Vibrapass.png" alt="Logo VibraPass" />
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+
+      <nav>
+        <ul class="menu-horizontal">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#eventos">Evento</a></li>
+          <li><a href="#artistas">Artistas</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#favoritos">Favoritos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="sec-prod-serv">
+        <div class="div-gral-prod-serv">
+          <div class="div-prod-serv-text">
+            <h1>Encuentra tu próximo evento</h1>
+            <p>
+              Descubre eventos increíbles, artistas en vivo y experiencias
+              inolvidables cerca de ti.
+            </p>
+
+            <form class="buscador-eventos">
+              <input
+                type="text"
+                placeholder="Buscar artista, evento o lugar"
+                aria-label="Buscar evento"
+              />
+            </form>
+
+            <a href="#eventos" class="btn-principal">Explorar eventos</a>
+
+            <div class="categorias">
+              <h3>Categorías</h3>
+              <div class="categoria-lista">
+                <span>Rock</span>
+                <span>Pop</span>
+                <span>Urbano</span>
+                <span>Electrónica</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="div-prod-serv-img">
+            <img src="costa21.jpg" alt="Concierto en vivo" />
+          </div>
+        </div>
+      </section>
+
+      <section id="eventos" class="seccion-eventos">
+        <div class="titulo-seccion">
+          <h2>Eventos recomendados</h2>
+          <a href="#eventos">Ver todos</a>
+        </div>
+
+        <div class="contenedor-eventos">
+          <article class="card-evento">
+            <img src="vibraperu.png" alt="Evento recomendado" />
+            <div>
+              <h3>Vibra Perú</h3>
+              <p>30 / 11 / 2026</p>
+              <span>Costa Verde</span>
+            </div>
+          </article>
+
+          <article class="card-evento">
+            <img src="salsa.jpg" alt="Evento recomendado" />
+            <div>
+              <h3>Salsa Lima Festival</h3>
+              <p>12 / 07 / 2026</p>
+              <span>Estadio San Marcos</span>
+            </div>
+          </article>
+
+          <article class="card-evento">
+            <img src="selvamon.png" alt="Evento recomendado" />
+            <div>
+              <h3>Selvamonos 2026</h3>
+              <p>27 / 08 / 2026</p>
+              <span>Fundo Cemayu, Oxapampa</span>
+            </div>
+          </article>
+
+          <article class="card-evento">
+            <img src="cosquin.jpg" alt="Evento recomendado" />
+            <div>
+              <h3>Cosquin Rock 2026</h3>
+              <p>16 / 07 / 2026</p>
+              <span>Costa 21</span>
+            </div>
+          </article>
+
+          <article class="card-evento">
+            <img src="turr.jpg" alt="Evento recomendado" />
+            <div>
+              <h3>Trueno 2026</h3>
+              <p>01 / 10 / 2026</p>
+              <span>Arena 1</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="artistas" class="seccion-artistas">
+        <h2>Artistas populares</h2>
+
+        <div class="contenedor-artistas">
+          <article class="card-artista">
+            <img src="gus.jpg" alt="Artista popular" />
+            <h3>Gustavo Cerati</h3>
+          </article>
+
+          <article class="card-artista">
+            <img src="EV.jpg" alt="Artista popular" />
+            <h3>Enanitos Verdes</h3>
+          </article>
+
+          <article class="card-artista">
+            <img src="alejna.webp" alt="Artista popular" />
+            <h3>Alejandro Sanz</h3>
+          </article>
+
+          <article class="card-artista">
+            <img src="trueno.jpg" alt="Artista popular" />
+            <h3>Trueno</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="agenda" class="seccion-agenda">
+        <div class="agenda-texto">
+          <h2>Mi Agenda Musical</h2>
+          <p>
+            Organiza tus conciertos favoritos, revisa tus próximas fechas y
+            accede rápidamente a tus entradas digitales.
+          </p>
+        </div>
+
+        <div class="agenda-contenido">
+          <div class="calendario">
+            <div class="calendario-header">
+              <h3>Julio 2026</h3>
+            </div>
+
+            <div class="calendario-grid">
+              <span>Lun</span>
+              <span>Mar</span>
+              <span>Mié</span>
+              <span>Jue</span>
+              <span>Vie</span>
+              <span>Sáb</span>
+              <span>Dom</span>
+
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
+              <div>10</div>
+              <div>11</div>
+              <div class="dia-evento">
+                12 <small>Salsa Lima Festival</small>
+              </div>
+              <div>13</div>
+              <div>14</div>
+              <div>15</div>
+              <div class="dia-evento">16 <small>Cosquin Rock Perú</small></div>
+              <div>17</div>
+              <div>18</div>
+              <div>19</div>
+              <div>20</div>
+              <div>21</div>
+            </div>
+          </div>
+
+          <aside class="proximos-eventos">
+            <h3>Próximos eventos</h3>
+
+            <div class="evento-agenda">
+              <h4>Salsa Lima Festival</h4>
+              <p>12 Jul · Estadio San Marcos</p>
+              <a href="#favoritos">Ver detalle</a>
+            </div>
+
+            <div class="evento-agenda">
+              <h4>Cosquin Rock Perú</h4>
+              <p>16 Jul · Costa 21</p>
+              <a href="#favoritos">Ver entrada</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="video" class="sec-pro-dig">
+        <div class="div-gral-prod-dig">
+          <div class="div-prod-dig-text">
+            <h2>¿Cómo funciona VibraPass?</h2>
+            <p>
+              VibraPass permite explorar conciertos, guardar eventos favoritos,
+              organizar tu agenda musical y acceder a tus entradas digitales
+              desde una sola plataforma.
+            </p>
+          </div>
+
+          <div class="div-prod-dig-video">
+            <iframe
+              src="https://www.youtube.com/embed/3R_sUTJXw_M"
+              title="Video de VibraPass"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="favoritos" class="seccion-formulario">
+        <div class="div-geral-formulario">
+          <h2>Únete a VibraPass</h2>
+          <p>
+            Regístrate para recibir novedades sobre conciertos, artistas y
+            eventos cerca de ti.
+          </p>
+
+          <form class="formulario">
+            <div class="campo">
+              <label for="nombres">Nombres completos</label>
+              <input
+                type="text"
+                id="nombres"
+                name="nombres"
+                placeholder="Ingrese su nombre completo"
+              />
+            </div>
+
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input
+                type="email"
+                id="correo"
+                name="correo"
+                placeholder="Ingrese su correo"
+              />
+            </div>
+
+            <div class="campo">
+              <label for="ciudad">Ciudad</label>
+              <select id="ciudad" name="ciudad">
+                <option value="">Seleccione una ciudad</option>
+                <option value="lima">Lima</option>
+                <option value="arequipa">Arequipa</option>
+                <option value="trujillo">Trujillo</option>
+                <option value="cusco">Cusco</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label>Intereses musicales</label>
+              <ul class="lista-checkbox">
+                <li>
+                  <label>
+                    <input type="checkbox" name="intereses" value="rock" />
+                    Rock
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox" name="intereses" value="pop" />
+                    Pop
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox" name="intereses" value="urbano" />
+                    Urbano
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="intereses"
+                      value="electronica"
+                    />
+                    Electrónica
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="div-gral-footer">
+        <div class="footer-columna">
+          <h3>VibraPass</h3>
+          <p>
+            Plataforma diseñada para descubrir eventos, seguir artistas,
+            organizar conciertos favoritos y gestionar entradas digitales.
+          </p>
+        </div>
+
+        <div class="footer-columna">
+          <h3>Avisos legales</h3>
+          <ul>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Libro de reclamaciones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-columna">
+          <h3>Redes sociales</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-copy">
+        <p>VibraPass © 2026</p>
+        <p>Ayuda</p>
+        <p>Términos</p>
+        <p>Contacto</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const menuHorizontal = document.querySelector(".menu-horizontal");
+
+      menuToggle.addEventListener("click", () => {
+        menuHorizontal.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
